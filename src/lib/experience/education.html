@@ -1,0 +1,42 @@
+<h2 class="education-h"><iconify-icon icon="mdi:school" height="24"></iconify-icon> Education</h2>
+
+<section class="education">
+
+  <wax! src="./card.html" company="SintLucas" title="Game Developer" start="2019" end="2023" desc="" link="https://www.sintlucas.nl/" />
+
+  <wax! src="./card.html" company="Self-Educated" title="Software Developer" start="Since" end="2014" desc="" link="https://mxcop.dev/" />
+
+  <wax! src="./card.html" company="Philips van Horne" title="VMBO-T" start="2015" end="2019" desc="" link="https://pvanhorne.nl/" />
+
+</section>
+
+<style>
+  .education-h {
+    color: #ffc;
+  }
+  .education {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .education .card {
+    max-width: 28%;
+    min-width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 16px;
+  }
+  .education .card * {
+    margin: 2px;
+    text-align: center;
+  }
+  .education .card .title {
+    color: #ccc;
+  }
+  .education .card .duration {
+    color: #888;
+    white-space: nowrap;
+  }
+</style>

@@ -1,0 +1,5 @@
+[website]
+pages = "./src/pages"
+
+[build]
+minify = true

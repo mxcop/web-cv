@@ -1,0 +1,42 @@
+<h2 class="exp-h"><iconify-icon icon="mdi:briefcase" height="24"></iconify-icon> Work Experience</h2>
+
+<section class="exp">
+
+  <wax! src="./card.html" company="VIA Traffic Solutions" title="Backend Intern" start="2018" end="2019" desc="I worked on a vehicle crash visualizer using C# & .NET" link="https://www.via.nl/" />
+
+  <wax! src="./card.html" company="VIA Traffic Solutions" title="Fullstack Developer" start="2021" end="Present" desc="After my internship I started working at VIA one day a week. I work on both front-end with VueJS as well as back-end with C# & .NET" link="https://www.via.nl/" />
+
+  <wax! src="./card.html" company="Raccoon Serious Games" title="Frontend Intern" start="01/09/2021" end="20/01/2022" desc="I worked on multiple games using Angular & Typescript" link="https://raccoon.games/" />
+
+</section>
+
+<style>
+  .exp-h {
+    color: #fcc;
+  }
+  .exp {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .exp .card {
+    max-width: 360px;
+    min-width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 16px;
+  }
+  .exp .card * {
+    margin: 2px;
+    text-align: center;
+  }
+  .exp .card .title {
+    color: #ccc;
+  }
+  .exp .card .duration {
+    color: #888;
+    white-space: nowrap;
+  }
+</style>

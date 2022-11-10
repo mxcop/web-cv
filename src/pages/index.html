@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Max Coppen</title>
+
+  <style>
+    :root {
+      font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+      color: #eee;
+    }
+    body {
+      position: relative;
+      background-color: #111;
+      width: 80vw;
+      height: fit-content;
+      min-height: calc(100vh - 104px);
+      margin: 0;
+      padding: 0 10vw 104px 10vw;
+      overflow-x: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    body::after {
+      position: absolute;
+      content: "";
+
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+
+      background-image: radial-gradient(at 27% 37%,#ecbc68 0,transparent 50%),radial-gradient(at 97% 21%,#ce2f3f 0,transparent 50%),radial-gradient(at 52% 114%,#ce2f3f 0,transparent 50%),radial-gradient(at 30% 59%,#ecbc68 0,transparent 50%),radial-gradient(at 67% 66%,#ecbc68 0,transparent 30%),radial-gradient(at 33% 50%,#ce2f3f 0,transparent 50%),radial-gradient(at 79% 53%,#ecbc68 0,transparent 50%);
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity: .1;
+      z-index: -1;
+    }
+    section {
+      width: 100%;
+      max-width: 1280px;
+      height: auto;
+    }
+    h1 { font-size: 2rem; color: #eee; font-weight: 800; margin-bottom: 0px; display: flex; align-items: center; }
+    h2 { display: flex; align-items: center; justify-content: center; margin-top: 32px; opacity: .5; }
+    h1 iconify-icon, h2 iconify-icon { margin-right: 10px; }
+    p { font-size: 1rem; color: #eee; font-weight: 500; }
+    a { color: #579dfe }
+  </style>
+</head>
+<body>
+
+  <wax! src="../lib/header.html" />
+
+  <wax! src="../lib/about.html" />
+
+  <wax! src="../lib/languages/section.html" />
+
+  <wax! src="../lib/experience/experience.html" />
+
+  <wax! src="../lib/experience/education.html" />
+
+  <wax! src="../lib/interests/section.html" />
+
+  <wax! src="../lib/tools/section.html" />
+
+  <wax! src="../lib/footer.html" />
+
+  <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+
+</body>
+</html>
